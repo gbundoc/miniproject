@@ -1,0 +1,124 @@
+body {
+    margin-top: 99px;
+  }
+  
+  .heading {
+    background-color: #F8F8F8;
+    border-bottom: 2px solid #DDDDDD;
+    margin-top: -24px;
+    margin-bottom: 24px;
+    padding: 40px 0 24px;
+  }
+  
+  .heading-title {
+    /* margin: 0; */
+    color: #6C9B41;
+  }
+  
+  .heading-subtitle {
+    margin: 0;
+    /* margin-top: 4px; */
+    color: #888;
+    font-size: 16px;
+  }
+  
+  .box {
+    background-color: white;
+    padding: 36px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+  }
+  
+  .box .heading {
+    background-color: transparent;
+    border-bottom: 1px solid #d9d9d9;
+    margin-top: -36px;
+  }
+  
+  .box .heading-title {
+    margin-bottom: 0;
+  }
+  
+  .page-header {
+    color: #18879B;
+    font-size: 24px;
+    margin: 40px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .fa-right {
+    margin-right: 8px;
+  }
+  
+  .fa-left {
+    margin-left: 8px;
+  }
+  
+  .small-label {
+    /*font-size: 12px;*/
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 4px;
+    /*text-transform: uppercase;*/
+  }
+  
+  .line-height-lg {
+    line-height: 2;
+  }
+  
+  
+  .table-loading {
+    position: relative;
+  }
+  
+  .table-loading::after {
+    position: absolute;
+    top: 43px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    background-image: url(../images/loading.gif);
+    background-position: center 40px;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    content: "";
+  }
+  
+  
+  
+  
+  
+  .section-editable .edit-mode,
+  .section-editable .section-footer,
+  .btn-close {
+    display: none;
+  }
+  
+  .section-editable .section-heading {
+    position: relative;
+  }
+  
+  .btn-edit,
+  .btn-close {
+    padding: 0;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 0;
+  }
+  
+  
+  .btn-toggle {
+    padding: 0;
+    height: 28px;
+    position: absolute;
+    right: 0;  
+  }
+  
+  .section .section-heading {
+    position: relative;
+  }
+
+  
