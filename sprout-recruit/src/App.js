@@ -1,21 +1,20 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Route } from "react-router-dom";
+import FontAwesome from "react-fontawesome";
+import Header from "./components/header/Header";
+import JobApplicationsList from "./components/pages/JobApplicationsList";
+import JobApplicationsPost from "./components/pages/JobApplicationsPost";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
+import './styles.css';
+
+const App = () => (
+  <div>
+    <Header />
+    <div>
+      <Route path="/jobapplicationslist" exact component={JobApplicationsList} />
+      <Route path="/jobapplicationspost" exact component={JobApplicationsPost} />
+    </div>
+  </div>
+);
 
 export default App;
