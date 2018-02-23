@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route } from "react-router-dom";
-import FontAwesome from "react-fontawesome";
+
 import Header from "./components/header/Header";
 import JobApplicationsList from "./components/pages/JobApplicationsList";
 import JobApplicationsPost from "./components/pages/JobApplicationsPost";
